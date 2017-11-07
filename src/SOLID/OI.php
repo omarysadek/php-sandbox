@@ -1,6 +1,7 @@
 <?php
 // I don't force child class to implements something they don't need
 // O trick if you have to do if instanceof on a variable typed from an interface that means big problablity you breaking o principale
+// D Depends on general injection not specification of a general
 interface WorkableInterface
 {
 	public function work();
