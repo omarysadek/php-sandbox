@@ -1,8 +1,21 @@
 {
-	"autoload": {
-		"psr-O": {
-			"": "src"
-		}
-	}
-
+    "name" : "osadek/php-sandbox",
+    "description" : "playing with new features and design patterns",
+    "authors" : [
+        {
+            "name" : "Omar SADEK",
+            "email" : "omar.ysadek@gmail.com"
+        }
+    ],
+    "require" : {
+        "php" : ">=7.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "6.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "OSPSB\\": ""
+        }
+    }
 }
