@@ -6,12 +6,18 @@ use OSPSB\src\patterns\adapter\book\Interfaces\EBookInterface;
 
 class Kindle implements EBookInterface
 {
-    public function turnOn()
+    /**
+     * @return string
+     */
+    public function turnOn() : string
     {
         return "Starting the device...";
     }
 
-    public function nextPage()
+    /**
+     * @return string
+     */
+    public function nextPage() : string
     {
         return "Turning the page...";
     }

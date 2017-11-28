@@ -7,20 +7,32 @@ use OSPSB\src\patterns\adapter\book\Interfaces\EBookInterface;
 
 class EBookAdapter implements BookInterface
 {
+    /**
+     * @var EBookInterface
+     */
     protected $ebook;
 
+    /**
+     * @param EBookInterface $ebook
+     */
     public function __construct(EBookInterface $ebook)
     {
         $this->ebook = $ebook;
     }
 
-    public function open()
+    /**
+     * @return string
+     */
+    public function open() : string
     {
-        $this->ebook->turnOn();
+        return $this->ebook->turnOn();
     }
 
-    public function turnPage()
+    /**
+     * @return string
+     */
+    public function turnPage() : string
     {
-        $this->ebook->nextPage();
+        return $this->ebook->nextPage();
     }
 }

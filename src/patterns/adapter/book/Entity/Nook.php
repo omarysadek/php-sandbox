@@ -6,12 +6,18 @@ use OSPSB\src\patterns\adapter\book\Interfaces\EBookInterface;
 
 class Nook implements EBookInterface
 {
-    public function turnOn()
+    /**
+     * @return string
+     */
+    public function turnOn() : string
     {
         return "Nook:starting the device...";
     }
 
-    public function nextPage()
+    /**
+     * @return string
+     */
+    public function nextPage() : string
     {
         return "Nook:turning the page...";
     }

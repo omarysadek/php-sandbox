@@ -4,6 +4,13 @@ namespace OSPSB\src\patterns\adapter\book\Interfaces;
 
 interface EBookInterface
 {
-    public function turnOn();
-    public function nextPage();
+    /**
+     * @return string
+     */
+    public function turnOn() : string;
+
+    /**
+     * @return string
+     */
+    public function nextPage() : string;
 }

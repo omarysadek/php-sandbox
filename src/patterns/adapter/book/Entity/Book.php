@@ -6,12 +6,18 @@ use OSPSB\src\patterns\adapter\book\Interfaces\BookInterface;
 
 class Book implements BookInterface
 {
-    public function open()
+    /**
+     * @return string
+     */
+    public function open() : string
     {
         return "Opening the book";
     }
 
-    public function turnPage()
+    /**
+     * @return string
+     */
+    public function turnPage() : string
     {
         return "Turning the page";
     }
