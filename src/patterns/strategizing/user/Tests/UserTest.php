@@ -28,9 +28,5 @@ class UserTest extends TestCase
         $this->assertTrue(
             (RegistrationFactory::get() instanceof DefaultRegistration)
         );
-
-        //echo RegistrationFactory::get('god')->handle('Kinovy')->info();
-        //echo RegistrationFactory::get('vip')->handle('Keynge')->info();
-        //echo RegistrationFactory::get()->handle('You')->info();
     }
 }
