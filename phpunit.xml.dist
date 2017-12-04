@@ -2,6 +2,7 @@
 <phpunit bootstrap="./vendor/autoload.php" colors="true">
     <testsuites>
         <testsuite name="PHP Sandbox">
+            <directory suffix="Test.php">src/*/*</directory>
             <directory suffix="Test.php">src/*/*/*/Tests</directory>
         </testsuite>
     </testsuites>
