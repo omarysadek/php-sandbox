@@ -1,6 +1,6 @@
 <?php
 
-namespace OSPSB\src\phpFeatures\php7\anonymousClas\Interfaces;
+namespace OSPSB\src\phpFeatures\php7\anonymousClass\Interfaces;
 
 interface Logger
 {

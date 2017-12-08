@@ -4,9 +4,9 @@ namespace OSPSB\src\phpFeatures\php7\anonymousClas\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-use OSPSB\src\phpFeatures\php7\anonymousClas\Interfaces\Logger;
-use OSPSB\src\phpFeatures\php7\anonymousClas\Entity\Application;
-use OSPSB\src\phpFeatures\php7\anonymousClas\Entity\TerminalLogger;
+use OSPSB\src\phpFeatures\php7\anonymousClass\Interfaces\Logger;
+use OSPSB\src\phpFeatures\php7\anonymousClass\Entity\TerminalLogger;
+use OSPSB\src\phpFeatures\php7\anonymousClass\Entity\Application;
 
 class Test extends TestCase
 {

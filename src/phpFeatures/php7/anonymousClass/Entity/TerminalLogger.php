@@ -1,8 +1,8 @@
 <?php
 
-namespace OSPSB\src\phpFeatures\php7\anonymousClas\Entity;
+namespace OSPSB\src\phpFeatures\php7\anonymousClass\Entity;
 
-use OSPSB\src\phpFeatures\php7\anonymousClas\Interfaces\Logger;
+use OSPSB\src\phpFeatures\php7\anonymousClass\Interfaces\Logger;
 
 class TerminalLogger implements Logger
 {

@@ -1,9 +1,8 @@
 <?php
 
+namespace OSPSB\src\phpFeatures\php7\anonymousClass\Entity;
 
-namespace OSPSB\src\phpFeatures\php7\anonymousClas\Entity;
-
-use OSPSB\src\phpFeatures\php7\anonymousClas\Interfaces\Logger;
+use OSPSB\src\phpFeatures\php7\anonymousClass\Interfaces\Logger;
 
 class Application
 {
